@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var heightlabel: UILabel!
     @IBOutlet weak var resultlabel: UILabel!
     
-    var weight: Float = 0
-    var height: Float = 0
+    var weight: Float = 70.0
+    var height: Float = 170.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
